@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Black-Cafe</title>
+
+    <!-- SEO meta tags -->
+    <meta name="author" content="Usman Nadiry">
+    <meta name="keyword" content="Black-cafe, black cafe">
+    <meta name="title" content="Responsive Web Design">
+    <meta name="description" content="This is the website made for hopeful candidates of Responsive Design">
+    <meta name="revised" content="Wednesday, August 15, 2024, 2:30pm">
+    <meta name="language" content="English">
+    <meta name="googlebot" content="no-translate">
+    <meta name="rating" content="save for everyone">
+
+    <!-- http-equiv meta tags -->
+    <meta http-equiv="refresh" content="#">
+    <meta http-equiv="content-type" content="text/html">
+    <meta http-equiv="content-language" content="English">
+    <meta http-equiv="default-style">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- open graph meta tags -->
+    <meta property="og:title" content="Black-cafe">
+    <meta property="og:url" content="https://Black-cafe.com">
+    <meta property="og:image" content="https://Black-cafe/image.com">
+    <meta property="type" content="website">
+
+    <!-- additional og meta tags -->
+    <meta property="og:description" content="Black-cafe is the most cheapest restaurant in whole pesawar">
+    <meta property="og:site-name" content="Black-cafe.com">
+    <meta property="og:locale" content="US-en">
+
+    <!-- linking CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- linking remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- linking locomotive css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <!-- linking sheryjs css from Github (https://github.com/aayushchouhan24/sheryjs)-->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="image/sus.png" alt=""></a>
+        </div>
+        <nav>
+            <a href="#">ABOUT</a>
+            <a href="#"><select id="menu">
+                    <option value="menu">MENUS</option>
+                    <option value="morning">Morning</option>
+                    <option value="noon">Noon</option>
+                    <option value="evening">Evening</option>
+                </select></a>
+            <a href="#">FOOD TO GO</a>
+            <a href="#">BLOG</a>
+            <a href="#">EVENTS</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+        <a href="reserve.html"><button class="btn-common reserve">RESERVE</button></a>
+    </header>
+    <main>
+        <div class="banner reserve-banner">
+            <div class="reserve-banner-h1">
+                <h1>BLACK-CAFE PESHAWAR</h1>
+                <h1>BLACK-CAFE PESHAWAR</h1>
+            </div>
+            <div class="ban-btn">
+                <a href="index.html"><button class="btn-common book">BACK TO HOME</button></a>
+            </div>
+            <div class="res-ban-icons">
+                <i class="ri-arrow-left-s-line icon-1"></i>
+                <i class="ri-arrow-right-s-line icon-2"></i>
+            </div>
+        </div>
+        <div class="reserve-input">
+            <h1>RESERVATION</h1>
+            <form action="#" method="get">
+                    <div class="finput-line input-line">
+                    <div>
+                        <label for="date">Select Date</label><br>
+                        <input type="date" id="date-input" placeholder="Select Date"><br>
+                    </div>
+                    <div>
+                        <label for="time">Select Time</label><br>
+                        <select id="time">
+                            <option value="Select time">Select Time</option>
+                            <option value="17:00">17:00</option>
+                            <option value="17:15">17:15</option>
+                            <option value="17:30">17:30</option>
+                            <option value="17:45">17:45</option>
+                            <option value="18:00">18:00</option>
+                            <option value="18:15">18:15</option>
+                            <option value="18:30">18:30</option>
+                            <option value="18:45">18:45</option>
+                            <option value="19:00">19:00</option>
+                            <option value="19:15">19:15</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="sinput-line input-line">
+                    <div>
+                        <label for="date">Number of Guests</label><br>
+                        <select id="number-of-guest">
+                            <option value="Number">Number of Guests</option>
+                            <option value="2 adults">2 adults</option>
+                            <option value="3 adults">3 adults</option>
+                            <option value="4 adults">4 adults</option>
+                            <option value="5 adults">5 adults</option>
+                            <option value="6 adults">6 adults</option>
+                            <option value="7 adults">7 adults</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="time">Number of toddlers (~ 4 years old)</label><br>
+                        <select id="number of toddlers">
+                            <option value="no toddler">No Toddlers</option>
+                            <option value="2 toddlers">2 Toddlers</option>
+                            <option value="3 toddlers">3 Toddlers</option>
+                            <option value="4 toddlers">4 Toddlers</option>
+                            <option value="5 toddlers">5 Toddlers</option>
+                            <option value="6 toddlers">6 Toddlers</option>
+                            <option value="7 toddlers">7 Toddlers</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tinput-line input-line">
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="candidate_name" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="mob-number">Mobile Number</label><br>
+                        <input type="number" id="mob-number" name="mob-number" placeholder="Mobile Number">
+                    </div>
+                </div>
+                <div class="finput-line input-line">
+                    <div>
+                        <label for="email">Email (Varification code will be sent)</label><br>
+                        <input type="email" id="email" name="email" placeholder="Email" style="width:33vw">
+                    </div>
+                    <div>
+                        <label for="email">Email Confirmation</label><br>
+                        <input type="email" id="email" name="email" placeholder="Email Confirmation" style="width:33vw">
+                    </div>
+                </div>
+                <div class="fvinput input-line">
+                    <label for="nothing" style="color:red">* Incorrect email will prevent us from sending you
+                        confirmation or notification email</label>
+                </div>
+                <div class="sinput input-line">
+                    <div>
+                        <label for="msg">Special Request</label><br>
+                        <textarea name="message" id="msg" style="width:68vw;" placeholder="Special Request" ></textarea>
+                    </div>
+                </div>
+                <div class="svinput input-line">
+                    <input type="checkbox" checked>Black-Cafe will send you offers or news by email unless you object by unchecking this box.
+                </div>
+                <div class="evinput input-line">
+                    <input type="checkbox" checked>Show Me The Menu will send you offers and news by email unless you object by unchecking this box.
+                </div>
+                <div class="last-line">
+                    <pre>Submission will send a verification code to your email address to complete reservation request.
+Once email is verified, reservation request will be sent to restaurant.
+Otherwise, restaurant will not receive any information about reservation request.</pre>
+                        <a href="#"><button class="btn-common">Submit</button></a>
+                </div>
+            </form>
+        </div>
+        <div class="reserve-footer">
+            <div class="res-foot-cont flex">
+                <h2>Contact Us</h2>
+                <a href="#"><i class="ri-map-pin-2-fill"></i>Kabotar Chowk Dalazak Road Peshawar</a>
+                <a href="#"><i class="ri-map-pin-2-fill"></i>Pakistan</a>
+                <a href="#"><i class="ri-phone-fill"></i>0300-****342</a>
+            </div>
+            <div class="res-foot-open flex">
+                <h2>Opening Hours</h2>
+                <div class="res-foot-day-hrs">
+                    <div class="res-foot-day">
+                        <p>Sunday</p>
+                        <p>Monday</p>
+                        <p>Tuesday</p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                    </div>
+                    <div class="res-foot-hrs">
+                        <p>12:00~22:30</p>
+                        <p>	11:45~14:20</p>
+                        <p>	12:00~14:20</p>
+                        <p>12:00~14:20</p>
+                        <p>12:00~14:20</p>
+                        <p>12:00~14:20</p>
+                        <p>12:00~14:20</p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-foot-loc">
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.42683945024!2d71.6030114755657!3d34.032920418750614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d93de94fb2ef17%3A0xce509e62555bc552!2sBlack%20Cafe%202%20Gelato%20House%20Ring%20Road%20Dalazak%20Road%20Branch!5e0!3m2!1sen!2sza!4v1724325767028!5m2!1sen!2sza" frameborder="0" style="width:23vw; height:39vh;"></iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="foot-stay">
+                <h2>STAY UPDATED & GET A FREE DRINK!</h2>
+                <p>Stay updated on our latest news and offers. Sign up now,<br> and we'll send you an email with details
+                    on
+                    how
+                    to get <br>your free drink!</p>
+                <div class="input-button">
+                    <input type="email" placeholder="Email Address">
+                    <button class="btn-common">SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="foot-rest">
+                <h4>RESTAURANT</h4>
+                <p>Ring Road Peshawar, 1QRFT</p>
+                <br>
+                <h4>OPENING HOURS</h4>
+                <p>MON - SAT 12:00 ~ 10:00</p>
+                <p>SUN 12:00 ~ 5:00</p>
+                <br>
+                <h4>BREAK HOURS</h4>
+                <p>MON - FRI 4:00 ~ 6:00</p>
+            </div>
+            <div class="foot-media">
+                <h4>CONNECT WITH US</h4>
+                <a href="#">INSTAGRAM</a>
+                <a href="#">TIKTOK</a>
+                <a href="#">ENQUIRIES</a>
+                <a href="#">03007823980</a>
+            </div>
+        </footer>
+        <div class="last-footer">
+            <img src="image/withtitel.png" alt="">
+            <p>@ Sushinoen All Rights Reserved</p>
+        </div>
+    </main>
+    <!-- linking locomotive js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <!-- Recommended -->
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <!-- linking sheryjs javacript -->
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+
+    <!-- linking html with js -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
